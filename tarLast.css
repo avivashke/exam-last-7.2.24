@@ -1,0 +1,60 @@
+
+  img {
+    width: 100%;
+    display: block;
+    mix-blend-mode:multiply;
+  }
+
+  #table {
+    width: 50%;
+    height: 20%;
+    align-self: center !important;
+    border: 5px solid blue;
+    background-color: bisque;
+    border-collapse: collapse;
+    
+  }
+
+  .options {
+   display: flex;
+   gap: 10px;
+  }
+  td.options {
+    height: 85px;
+  }
+  
+
+.options button {
+  margin-left: 5px;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  border: 5px solid blue !important;
+  padding: 5px !important;
+}
+td {
+  border: 5px solid blue !important;
+  padding: 5px !important;
+}
+
+
+.price {
+  text-align: right;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.rate {
+  color: green; 
+}
+
+.rate.bad-rating {
+  color: red;
+}
+
+.storeName {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-weight: bolder;
+}
